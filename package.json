@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "start": "node index.js",
-    "prestart": "npm run migrate",
+    "poststart": "npm run migrate",
     "dev": "nodemon index.js",
     "test": "jest --config jest.json",
     "tunnel": "ngrok http 3000",
